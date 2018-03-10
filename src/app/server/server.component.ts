@@ -17,7 +17,6 @@ export class ServerComponent {
     this._serverStatus = Math.random() > 0.5 ? 'online' : 'offline';
   }
 
-
   get serverStatus(): string {
     return this._serverStatus;
   }
